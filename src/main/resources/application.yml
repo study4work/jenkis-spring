@@ -1,6 +1,10 @@
+spring:
+  thymeleaf:
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
 
-thymeleaf:
-cache: false
-enabled: true
-prefix: classpath:/templates/
-suffix: .html
+logging:
+  file:
+    name: logs/demo.log
