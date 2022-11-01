@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Controller
-public class DemoRestController {
+public class DemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello";
+        return "Hello World";
     }
 
 }
